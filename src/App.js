@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
+import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
+import Ebd from './pages/EBD/Ebd';
+import { register } from 'swiper/element/bundle'
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/effect-fade';
+register();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          {/* Exemplo isso é para mudar para a página correta */}
+          <Route path='/' element={<Home />}/>
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/ebd' element={<Ebd />}/>
+        </Routes>
+      </BrowserRouter>
+
+    </>
   );
 }
-
 export default App;

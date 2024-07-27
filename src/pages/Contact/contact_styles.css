@@ -1,0 +1,276 @@
+:root {
+    --color1: #008000;
+    --color2: #ffffff;
+    --color3: #000000;
+    --color4: #015801;
+    --color5: #d5d5d5;
+    --color6: #ececec;
+    --color7: #1C244B;
+    --color8: #324A6D;
+}
+
+.contact-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-contato{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#info-contact {
+    max-width: 100%;
+    height: 100%;
+    /* margin-right: 300px; */
+}
+
+#info-contact h1 {
+    color: var(--color7);
+    font-size: 58px;
+    font-weight: 600;
+}
+
+#separator {
+    width: 140px;
+    height: 2px;
+    background-color: var(--color7);
+    margin-top: 50px;
+}
+
+#info-contact .title {
+    color: var(--color7);
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+
+#info-contact .text {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    color: var(--color7);
+}
+
+#img-contact {
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+#info-contact .email:hover {
+    color: var(--color1);
+    cursor: pointer;
+}
+
+/* LOCALIZAÇÃO */
+
+.container-localizar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#mapa iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#mapa {
+    max-width: 100%;
+    height: auto;
+    /* margin-right: 100px; */
+}
+
+#text-local {
+    font-size: 22px;
+    margin-top: 50px;
+    color: var(--color7);
+    font-weight: 300;
+}
+
+/* OFERTA */
+
+.container-oferta {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 168px 0px 112px;
+}
+
+.container-oferta h1 {
+    color: var(--color7);
+    font-size: 65px;
+    margin: 0px 0px 50px;
+}
+
+#text-oferta {
+    font-size: 22px;
+    color: var(--color8);
+    font-weight: 300;
+    margin: 0px 35rem 14.4px;
+    text-align: center;
+
+}
+
+#img-oferta {
+    max-width: 100%;
+    height: auto;
+    padding: 0 400px;
+}
+
+@media (max-width: 1125px){
+    .container-contato {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    #img-contact {
+        margin: 0;
+    }
+
+    .container-localizar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mapa {
+        width: 100%;
+        height: auto;
+    }
+    #mapa {
+        padding: 10px 10px 10px 50px;
+    }
+
+    .container-oferta {
+        margin: 0;
+    }
+
+    #img-oferta {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    #img-contact {
+        padding: 10px;
+    }
+
+    #mapa {
+        padding: 10px 10px 10px 50px;
+    }
+}
+
+/* TEXTOS */
+
+@media (max-width: 430px){
+    .container-contato,
+    .container-localizar,
+    .container-oferta {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #info-contact h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 35px;
+    }
+
+    #info-contact .title {
+        margin: 0;
+        padding: 0;
+    }
+
+    #info-contact .text {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    #info-contact #text-local {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .container-oferta h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 360px){
+    .contact-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-contato {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-localizar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-oferta {
+        margin: 0;
+        padding: 0;
+    }
+
+    #mapa {
+        margin: 0;
+        padding: 0 0 0 45px;
+    }
+
+    #info-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .title, 
+    .text,
+    #text-local,
+    #text-oferta {
+        margin: 0;
+        padding: 0;
+    }
+
+    #img-oferta,
+    #img-contact {
+        margin: 0;
+        padding: 0;
+    }
+}

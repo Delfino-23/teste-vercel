@@ -1,0 +1,76 @@
+.bg-body-tertiary {
+    background-color: #fff;
+}
+
+/* SEI LA */
+.links{
+    margin: 0 10px;
+}
+
+/* .links:hover,
+.drop_item:hover {
+    color: #008000;
+} */
+
+#logo_nav {
+    width: auto;
+    height: 50px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons {
+    width: auto;
+    height: 20px;
+    padding: 0 8px;
+}
+
+.facebookLogo {
+    height: 30px;
+    width: auto;
+}
+
+.instagramLogo {
+    height: 25px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.youtubeLogo {
+    height: 18px;
+    width: auto;
+}
+
+.facebookLogo:hover,
+.instagramLogo:hover,
+.youtubeLogo:hover {
+    cursor: pointer;
+}
+
+/* PALAVRA PASTOR */
+
+.palavra-pastor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+@media (max-width: 505px) {
+    .msg {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    
+}
+
+@media (max-width: 505px) {
+    .msg {
+        font-size: 10px;
+    }
+}

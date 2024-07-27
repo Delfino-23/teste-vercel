@@ -1,0 +1,550 @@
+:root {
+    --color1: #008000;
+    --color2: #ffffff;
+    --color3: #000000;
+    --color4: #015801;
+    --color5: #d5d5d5;
+    --color6: #ececec;
+    --color7: #1C244B;
+    --color8: #324A6D;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 20rem;
+    width: 100%;
+    height: 20%;
+    background-color: var(--color2);
+}
+
+.welcome h1 {
+    color: var(--color3);
+    font-weight: 600;
+    color: var(--color7);
+}
+
+.welcome .text-welcome {
+    text-align: center;
+    padding: 0 20rem;
+    font-weight: 300;
+    color: var(--color7);
+}
+
+#logo {
+    height: 35px;
+    width: auto;
+    margin-top: -10px;
+}
+
+.more-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+}
+
+.cards {
+    background-color: var(--color2);
+}
+
+.cards h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 38px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: .5s;
+    border: 1px solid var(--color1);
+    cursor: pointer;
+}
+
+/* .youtube{ 
+    width: 100%;
+    background-color: var(--color5);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canal {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: var(--color2);
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratio {
+    width: 800px;
+    height: 500px;
+    margin: 5px;
+}
+
+iframe {
+    border-radius: 8px;
+} */
+
+.canal {
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.canal #logo-canal {
+    height: 70px;
+    width: auto;
+    /* margin-left: 50px;  */
+    margin-right: 50px;
+}
+
+.ratio {
+    width: 400px;
+    height: 223px;
+    margin-left: 5px;
+    /* margin-left: -200px;
+    margin-top: 48px; */
+}
+
+.ratio iframe {
+    border-radius: 8px;
+}
+
+.video {
+    margin-right: 20px;
+}
+
+/* Instagram */
+
+.insta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color2);
+    padding-top: 10px;
+}
+
+/* Perfil Insta */
+
+.perfil_insta {
+    margin-left: -50rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#perfil_name {
+    margin: 0 10px;
+    font-size: small;
+}
+
+#perfil_name h1{
+    margin: 0;
+    font-size: medium;
+}
+
+#perfil_name p {
+    margin-bottom: 0;
+}
+
+#img_perfil {
+    background-image: url('../../images/Brasão\ AD\ MOGIANA.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.link_insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.link_insta:hover {
+    color: #008000;
+    transition: .4s;
+}
+/* Cards */
+#btn {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.cards-insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.linha1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.linha2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;  
+}
+
+.card-insta {
+    height: 280px;
+    width: 280px;
+    margin: 5px;
+    border-radius: 1px;
+}
+
+.card-insta:hover{
+    transform: scale(1.02);
+    transition: .5s;
+    border: none;
+}
+
+.cards-insta .card1 {
+    background-image: url('../../images/1i.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.cards-insta .card2 {
+    background-image: url('../../images/2i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.cards-insta .card3 {
+    background-image: url('../../images/3i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.cards-insta .card4 {
+    background-image: url('../../images/4i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.cards-insta .card5 {
+    background-image: url('../../images/5i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.cards-insta .card6 {
+    background-image: url('../../images/6i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.cards-insta .card7 {
+    background-image: url('../../images/7i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.cards-insta .card8 {
+    background-image: url('../../images/8i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.pastores {
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.pastores #titulo {
+    text-align: center;
+    font-size: 30px;
+    color: var(--color7);
+    margin-bottom: 100px;
+}
+
+.pastores #img-palavra {
+    width: 100%;
+}
+
+@media (max-width: 1529.33px) {
+    .welcome {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .welcome .text-welcome {
+        width: 100%;
+        height: 100%;
+        padding: 0 33%;
+    }
+}
+
+@media (max-width: 1056px) {
+    .canal {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #000000;
+    }
+    
+    .canal #logo-canal {
+        height: 70px;
+        width: auto;
+        margin-top: 50px;
+    }
+    
+    .ratio {
+        width: 55%;
+        height: 223px;
+        margin-bottom: 10px;
+    }
+    
+    .video {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    
+    .video2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .welcome {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10%;
+    }
+    .welcome .text-welcome {
+        width: 100%;
+        height: 100%;
+        padding: 0 25%;
+    }
+}
+
+@media (max-width: 1178px) {
+    .cards-insta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    .linha1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    
+    .linha2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;  
+    }
+
+    /* PERFIL */
+
+    .perfil_insta {
+        margin-left: -200px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #perfil_name {
+        margin: 0 10px;
+        font-size: small;
+    }
+    
+    #perfil_name h1{
+        margin: 0;
+        font-size: medium;
+    }
+    
+    #perfil_name p {
+        margin-bottom: 0;
+    }
+    
+    #img_perfil {
+        background-image: url('../../images/Brasão\ AD\ MOGIANA.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        border: 1px solid #000;
+        border-radius: 50%;
+    }
+    
+    .link_insta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .link_insta:hover {
+        color: #008000;
+        transition: .4s;
+    }
+}
+
+@media (max-width: 583px) {
+
+    .welcome h1 {
+        color: var(--color3);
+        font-weight: 600;
+        color: var(--color7);
+        font-size: 25px;
+    }
+
+    .welcome .text-welcome {
+        width: 100%;
+        height: 100%;
+        padding: 0 2%;
+    }
+
+    .ratio {
+        width: 85%;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .cards-insta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .linha1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    
+    .linha2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;  
+    }
+
+    /* PERFIL */
+
+    .perfil_insta {
+        margin-left: 80px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        
+    }
+    
+    #perfil_name {
+        margin: 0 10px;
+        font-size: small;
+    }
+    
+    #perfil_name h1{
+        margin: 0;
+        font-size: medium;
+    }
+    
+    #perfil_name p {
+        margin-bottom: 0;
+    }
+    
+    #img_perfil {
+        background-image: url('../../images/Brasão\ AD\ MOGIANA.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin-left: -70px;
+        margin-bottom: 10px;
+    }
+    
+    .link_insta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .link_insta:hover {
+        color: #008000;
+        transition: .4s;
+    }
+}

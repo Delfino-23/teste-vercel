@@ -1,0 +1,729 @@
+:root {
+    --color1: #008000;
+    --color2: #ffffff;
+    --color3: #000000;
+    --color4: #015801;
+    --color5: #d5d5d5;
+    --color6: #ececec;
+    --color7: #1C244B;
+    --color8: #324A6D;
+}
+
+/* IGREJA */
+
+.igreja {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-igreja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 15rem 0px;
+}
+
+.content-igreja #title-content {
+    color: var(--color7);
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.primary-content {
+    width: 100%;
+    height: 130vh;
+}
+
+#separator {
+    width: 140px;
+    height: 2px;
+    background-color: var(--color7);
+    margin: 30px 0px 40px 0px;
+}
+
+.content-igreja #text-content {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color8);
+    text-align: justify;
+    margin-right: 15px;
+}
+
+#img-rascunho {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color1);
+}
+
+.second-content {
+    width: 100%;
+    height: auto;
+    background-image: url('../../images/bg-igreja2.png');
+    background-size: cover;
+    /* background-position-y: 20rem; */
+}
+#img-rascunho2 {
+    width: 100%;
+    height: 445px;
+    background-color: var(--color4);
+}
+#img-rascunho3 {
+    width: 100%;
+    height: 375px;
+    background-color: var(--color4);
+    margin-top: 20px;
+}
+
+#img-assembleiaBelem {
+    max-width: 100%;
+    height: 320px;
+    /* background-color: var(--color1); */
+    margin: 50px 0px 55px 0px;
+}
+
+#img-pioneiros {
+    max-width: 100%;
+    height: auto;
+}
+#img-niverAss {
+    width: 100%;
+    height: auto;
+    /* padding-left: 50px; */
+    /* background-color: var(--color4); */
+}
+
+/* CONVENÇÃO */
+
+.container-pastor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15rem 0px;
+    border-bottom: 3px solid #d5d5d5;
+}
+
+.container-pastor #title-content {
+    color: var(--color7);
+    font-size: 58px;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.pastor-content #separator {
+    width: 140px;
+    height: 2px;
+    background-color: var(--color7);
+    margin: 30px 0px 40px 15px;
+}
+
+.pastor-content #text-content {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color8);
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.pastor-img {
+    width: 100%;
+    height: auto;
+    background-color: var(--color5);
+}
+
+.pastor-content {
+    width: 100%;
+    height: auto;
+}
+
+#img-convencoes {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-cgadb {
+    width: 100%;
+    height: auto;
+}
+#img-cieadespel {
+    width: 100%;
+    height: auto;
+    /* background-color: var(--color4); */
+    /* margin-top: 20px; */
+}
+
+/* NASCIMENTO AD MOG */
+
+.container-miss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15rem 0px;
+}
+
+.container-miss #title-content {
+    color: var(--color7);
+    font-size: 58px;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.miss-content #separator {
+    width: 140px;
+    height: 2px;
+    background-color: var(--color7);
+    margin: 30px 0px 40px 15px;
+}
+
+.miss-content #text-content {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color8);
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.miss-img {
+    width: 100%;
+    height: auto;
+    /* background-color: var(--color5); */
+}
+
+.miss-content {
+    width: 100%;
+    height: 305vh;
+}
+
+#img-niverAss {
+    width: 100%;
+    height: auto;
+    /* background-color: var(--color4); */
+}
+
+#img-admog {
+    width: 100%;
+    height: auto;
+    background-color: var(--color4);
+}
+
+#img-admog2 {
+    width: 100%;
+    height: auto;
+    background-color: var(--color4);
+}
+
+#img-vazia {
+    width: 100%;
+    height: auto;
+    background-color: var(--color4);
+}
+
+/* GALERIA */
+
+.galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    margin: 0px 15rem 0px;
+}
+
+.fotos {
+    width: 373px;
+    height: 248px;
+}
+
+.foto1 {
+    background-color: var(--color1);
+}
+.foto2 {
+    background-color: var(--color4);
+}
+.foto3 {
+    background-color: var(--color7);
+}
+
+/* OFERTA */
+
+.container-oferta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 168px 0px 112px;
+}
+
+.container-oferta #title-content {
+    color: var(--color7);
+    font-size: 45px;
+    margin: 0px 0px 45px;
+    font-weight: 600;
+}
+
+#text-oferta {
+    font-size: 16px;
+    color: var(--color8);
+    font-weight: 300;
+    margin: 0px 0px 35px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#img-oferta {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1530px) {
+
+    /* IGREJA */
+
+    .content-igreja {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 85px;
+    }
+    
+    .content-igreja #title-content {
+        color: var(--color7);
+        font-size: 58px;
+        font-weight: 600;
+    }
+
+    .primary-content {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #img-assembleiaBelem {
+        width: 95%;
+        height: auto;
+        padding: 0 0 0 10px;
+    }
+    
+   .second-content {
+        width: 90%;
+   }
+
+   #img-pioneiros {
+        max-width: 100%;
+        height: auto;
+   }
+
+   #img-niverAss {
+        height: auto;
+   }
+
+   /* CONVENÇÕES */
+
+   .container-pastor {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 0 85px;
+    }
+
+    .pastor-img {
+        width: 97%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pastor-content {
+        width: 100%;
+    }
+
+    #img-cgadb {
+        width: 100%;
+        height: auto;
+    }
+
+    #img-cieadespel {
+        width: 100%;
+        height: auto;
+    }
+
+    /* NASCIMENTO DA ADMOG */
+
+    .container-miss {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0px 15rem 0px;
+    }
+    
+    .container-miss #title-content {
+        color: var(--color7);
+        font-size: 58px;
+        font-weight: 600;
+    }
+    
+    .miss-img {
+        width: 90%;
+        height: auto;
+    }
+    
+    .miss-content {
+        width: 100%;
+        height: auto;
+    }
+    
+    #img-niverAss {
+        width: 100%;
+        height: auto;
+    }
+    
+    #img-admog {
+        width: 100%;
+        height: auto;
+    }
+    
+    #img-admog2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    #img-vazia {
+        width: 100%;
+        height: auto;
+    }
+
+    /* OFERTA */
+
+    .container-oferta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 168px 0px 112px;
+    }
+    
+    .container-oferta #title-content {
+        color: var(--color7);
+        font-size: 45px;
+        /* margin: 0px 0px 45px; */
+        font-weight: 600;
+    }
+    
+    #text-oferta {
+        font-size: 16px;
+        color: var(--color8);
+        font-weight: 300;
+        margin: 0px 0px 35px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px){
+    .content-igreja{
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    .content-igreja #title-content {
+        font-size: 20px;
+    }
+    
+    .primary-content #title-content {
+        padding: 0 10px;
+    }
+    
+    .primary-content #text-content {
+        padding: 0 8px;
+    }
+
+    .primary-content #separator {
+        margin-left: 10px;
+    }
+
+    #img-assembleiaBelem {
+        max-width: 100%;
+        height: auto;
+        margin: 0;        
+    }
+
+    /* CONVENÇÕES */
+
+    .container-pastor{
+        padding: 0;
+    }
+
+    .container-pastor #title-content {
+        font-size: 20px;
+    }
+    
+    .container-pastor #title-content {
+        padding: 20px 10px;
+    }
+    
+    .pastor-content #text-content {
+        padding: 0 8px;
+    }
+
+    .pastor-content #separator {
+        margin-left: 10px;
+    }
+
+    /* NASCIMENTO AD MOG */
+
+    .container-miss{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-miss #title-content {
+        font-size: 20px;
+    }
+    
+    .container-miss #title-content {
+        padding: 20px 10px;
+    }
+
+    .miss-content #separator {
+        margin-left: 10px;
+    }
+
+    /* OFERTA */
+
+    .container-oferta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 168px 0px 112px;
+    }
+    
+    .container-oferta  {
+        color: var(--color7);
+        font-size: 45px;
+        margin: 0px 0px 45px;
+        font-weight: 600;
+    }
+    
+    #text-oferta {
+        font-size: 16px;
+        color: var(--color8);
+        font-weight: 300;
+        margin: 0px 0px 35px;
+        text-align: center;
+    
+    }
+
+    .container-oferta #title-content {
+        font-size: 20px;
+    }
+}
+
+/* CONVENÇÕES
+
+@media (max-width: 1139px) {
+    .container-pastor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0px 15rem 0px;
+        border-bottom: 3px solid #d5d5d5;
+    }
+    
+    .container-pastor h1 {
+        color: var(--color7);
+        font-size: 58px;
+        font-weight: 600;
+    }
+    
+    .midias-pastor {
+        text-align: center;
+    }
+    
+    .midias-pastor p{
+        margin-bottom: 0;
+        font-weight: 600;
+        color: var(--color7);
+        font-size: 14px;
+    }
+    
+    .midias-pastor #icon {
+        background-color: var(--color3);
+        color: var(--color2);
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .pastor-img {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color5);
+    }
+    
+    .pastor-content {
+        width: 560px;
+        padding: 0;
+    }
+    
+    #img-cgadb {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color4);
+    }
+    #img-cieadespel {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color4);
+        margin-top: 20px;
+    }
+}
+
+NASCIMENTO AD MOG
+
+@media (max-width: 1139px) {
+    .container-miss {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0px 15rem 0px;
+    }
+    
+    .container-miss #title-content {
+        color: var(--color7);
+        font-size: 58px;
+        font-weight: 600;
+    }
+    
+    .midias-miss {
+        text-align: center;
+    }
+    
+    .midias-miss p{
+        margin-bottom: 0;
+        font-weight: 600;
+        color: var(--color7);
+        font-size: 14px;
+    }
+    
+    .midias-miss #icon {
+        background-color: var(--color3);
+        color: var(--color2);
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .miss-img {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color5);
+    }
+    
+    .miss-content {
+        width: 560px;
+        padding: 0;
+    }
+    
+    #img-container {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #img-niverAss {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color4);
+    }
+    
+    #img-admog {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color4);
+    }
+    
+    #img-admog2 {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color4);
+    }
+    
+    #img-vazia {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color4);
+    }
+
+    #text-content {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+OFERTA
+
+@media (max-width: 1139px) {
+    .container-oferta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 168px 0px 112px;
+    }
+    
+    .container-oferta h1 {
+        color: var(--color7);
+        font-size: 45px;
+        margin: 0px 0px 45px;
+        font-weight: 600;
+    }
+    
+    #text-oferta {
+        font-size: 16px;
+        color: var(--color8);
+        font-weight: 300;
+        margin: 0px 0px 35px;
+        text-align: center;
+    
+    }
+    
+    #img-oferta {
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 598px) {
+
+    .igreja {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .igreja {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+} */
